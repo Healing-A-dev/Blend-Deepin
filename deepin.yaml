@@ -114,26 +114,18 @@ packages:
   - 'xfsprogs'
   - 'xl2tpd'
   - 'bluez'
-  - 'freetype2'
-  - 'lib32-libglvnd'
-  - 'libglvnd'
-  - 'lib32-krb5'
   - 'networkmanager'
   - 'cups'
   - 'ttf-jetbrains-mono'
-  - 'lightdm'
-  - 'lightdm-deepin-greeter'
   - 'xorg'
   - 'xorg-server'
-  - 'deepin'
-  - 'deepin-extra'
-  - 'deepin-kwin'
+  - 'cutefish'
 
 services:
   - 'cups'
   - 'bluetooth'
   - 'NetworkManager'
-  - 'lightdm'
+  - 'sddm'
 
 user-services:
   - 'blend-files'
