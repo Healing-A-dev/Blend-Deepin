@@ -38,7 +38,6 @@ packages:
   - 'bash-completion'
   - 'bind'
   - 'blend'
-  - 'blend-settings'
   - 'brltty'
   - 'broadcom-wl-dkms'
   - 'btrfs-progs'
@@ -117,19 +116,12 @@ packages:
   - 'networkmanager'
   - 'cups'
   - 'ttf-jetbrains-mono'
-  - 'xorg'
-  - 'xorg-server'
-  - 'cutefish'
 
 services:
   - 'cups'
   - 'bluetooth'
   - 'NetworkManager'
-  - 'sddm'
 
 user-services:
   - 'blend-files'
 
-commands:
-  - 'git clone https://github.com/Healing-A-Dev/Blocks'
-  - 'cd Blocks && make install && cd'
