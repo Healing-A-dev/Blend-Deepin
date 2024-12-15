@@ -1,0 +1,18 @@
+impl: 'https://github.com/Healing-A-Dev/blendos-desktops/raw/main'
+repo: 'https://mirror.askiiart.net/blendos/mirror/'
+track: 'core'
+
+packages:
+    - 'cutefish'
+    - 'xorg'
+    - 'xorg-server'
+    - 'sddm'
+    - 'alacritty'
+
+services:
+    - 'sddm'
+
+commands:
+    - 'systemctl enable sddm'
+    - 'systemctl reboot'
+    - 'systemctl start sddm.service'
