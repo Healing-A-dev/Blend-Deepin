@@ -1,0 +1,17 @@
+impl: 'https://github.com/Healing-A-Dev/blendos-desktops/raw/main'
+repo: 'https://mirror.askiiart.net/blendos/mirror/'
+track: 'core'
+
+packages:
+    - 'lightdm'
+    - 'deepin'
+    - 'deepin-kwin'
+    - 'deepin-extra'
+
+services:
+    - 'lightdm'
+
+commands:
+    - 'systemctl enable lightdm'
+    - 'systemctl reboot'
+    - 'systemctl start lightdm.service'
