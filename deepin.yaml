@@ -120,7 +120,7 @@ packages:
   - 'ttf-jetbrains-mono'
   - 'lightdm'
   - 'libglvnd'
-  - 'lib32-glvnd'
+  - 'lib32-libglvnd'
   - 'lib32-krb5'
   - 'deepin-daemon'
   - 'deepin-control-center'
