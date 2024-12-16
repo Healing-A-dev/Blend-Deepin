@@ -10,6 +10,7 @@ packages:
     - 'xorg-server'
 
 aur-packages:
+    - 'fluid-git'
     - 'liri-git-meta'
 
 services:
