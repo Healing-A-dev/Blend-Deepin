@@ -116,6 +116,7 @@ packages:
   - 'networkmanager'
   - 'cups'
   - 'ttf-jetbrains-mono'
+  - 'qt6'
 
 services:
   - 'cups'
