@@ -19,4 +19,4 @@ commands:
     - 'systemctl endable sddm'
     - 'systemctl reboot'
     - 'systemctl start sddm.service'
-    - 'liri-session'
+    - 'liri-session -platform wayland'
