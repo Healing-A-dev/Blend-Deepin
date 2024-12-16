@@ -2,13 +2,15 @@ impl: 'https://github.com/Healing-A-Dev/blendos-desktops/raw/main'
 repo: 'https://mirror.askiiart.net/blendos/mirror/'
 track: 'core'
 
-aur-packages:
-    - 'liri-git-meta'
+packages:
     - 'sddm'
     - 'firefox'
     - 'steam'
     - 'xorg'
     - 'xorg-server'
+
+aur-packages:
+    - 'liri-git-meta'
 
 services:
     - 'sddm'
