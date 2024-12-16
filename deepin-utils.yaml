@@ -13,7 +13,8 @@ packages:
     - 'lib32-krb5'
     - 'cairo'
     - 'qt6'
-    - 'qt5'
+    - 'deepin-daemon'
+    - 'deepin-control-center'
 
 services:
     - 'lightdm'
